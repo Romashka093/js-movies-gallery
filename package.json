@@ -9,17 +9,9 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Romashka093/anna_romashchenko-16-03-21.git"
-    },
     "keywords": [],
     "author": "Anna Romashchenko <aa.romashchenko@gmail.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/Romashka093/anna_romashchenko-16-03-21/issues"
-    },
-    "homepage": "https://Romashka093.github.io/anna_romashchenko-16-03-21",
+    "homepage": "https://romashka093.github.io/anna_romashchenko-16-03-21/",
     "devDependencies": {
         "@babel/core": "^7.11.6",
         "@babel/plugin-proposal-class-properties": "^7.10.4",
