@@ -1,13 +1,17 @@
 {
     "name": "anna_romashchenko-16-03-21",
     "version": "1.1.0",
-    "description": "",
+    "description": "> [Movies Gallery] (https://romashka093.github.io/anna_romashchenko-16-03-21/)",
     "main": "index.js",
     "scripts": {
         "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
         "build": "webpack --env.mode production --config ./webpack/config.js",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://romashka093.github.io/anna_romashchenko-16-03-21.git"
     },
     "keywords": [],
     "author": "Anna Romashchenko <aa.romashchenko@gmail.com>",
