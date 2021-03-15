@@ -1,0 +1,46 @@
+<div data-id={{id}} class="modal" data-modal="movieDetails">
+  <div class="wrapperModal">
+    <button class="closeMovieDetails"></button>
+    <div class="mainContainer">
+      <img class="posterMovie" src={{img}} alt="movie poster" />
+      <div class="descriptionContainer">
+        <h3 class="titleMovieName">
+          {{name}}
+        </h3>
+        <p class="movieDescription">
+          {{description}}
+        </p>
+      </div>
+    </div>
+    <div class="movieInfo">
+      <div class="containerMovieInfo">
+        <div class="userStatus">
+          <span class="regularMovie" data-id={{id}}></span>
+          <p class="movieCreatedAt">
+            {{year}}
+          </p>
+        </div>
+        <ul class="movieGenre">
+          {{#each genres}}
+            <li class="genre">
+              {{this}}
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+      <div class="createdBy">
+        <p class="director">
+          Director:
+          {{director}}
+        </p>
+        <ul class="actors">
+          Starring:
+          {{#each starring}}
+            <li class="star">{{this}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{{! </div> }}

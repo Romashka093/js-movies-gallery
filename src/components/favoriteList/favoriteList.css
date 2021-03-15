@@ -1,0 +1,40 @@
+.movieItem {
+    margin: 20px 0 0 0;
+}
+
+.movieWrap {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.movieTitleName {
+    text-align: left;
+    margin: 0;
+    width: 95%;
+}
+
+.deleteMovieBtn {
+    position: absolute;
+    background-image: url(../../images/action_close_black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+    right: 0;
+    top: 0;
+    border: none;
+}
+
+.deleteMovieBtn:hover {
+    background-image: url(../../images/action_close_red.svg);
+}

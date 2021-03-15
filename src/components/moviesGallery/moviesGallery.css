@@ -1,0 +1,114 @@
+.movieCard {
+    position: relative;
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 20px 20px 0;
+    background-color: #f6f4e6;
+    border-radius: 16px;
+}
+
+.regularMovie {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.favoriteMovie {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/yellow_star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.movieLink {
+    margin: 12px;
+}
+
+.moviePoster {
+    width: 200px;
+    height: 250px;
+    border-radius: 16px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.shortDescription {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.movieName {
+    margin: 0 0 16px 0;
+}
+
+.movieYear {
+    margin: 0 0 16px 0;
+}
+
+.emptyItem {
+    background-color: #f6f4e6;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 20px auto 0;
+}
+
+@media (min-width: 768px) {
+    .movieCard {
+        margin: 16px 0 0;
+        padding: 16px 16px 0;
+    }
+    .movieLink {
+        margin: 0 4px;
+    }
+    .emptyItem {
+        margin: 16px auto 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .movieCard {
+        margin: 16px 0 0;
+        padding: 8px 8px 0;
+    }
+    .movieLink {
+        margin: 0 4px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .movieCard {
+        margin: 16px 3px 0;
+        padding: 16px 8px 0;
+    }
+    .movieLink {
+        margin: 0 12px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .movieCard {
+        margin: 16px 10.5px 0;
+        padding: 16px 14px 0;
+    }
+    .movieLink {
+        margin: 0 10px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .movieCard {
+        margin: 18px 18px 0;
+        padding: 20px 20px 0;
+    }
+    .emptyItem {
+        margin: 18px auto 0;
+    }
+}

@@ -1,0 +1,14 @@
+{{#each this}}
+<li id={{id}} class ="movieCard">
+    <span class="regularMovie" data-id={{id}}>
+    </span>
+    <a class="movieLink" href="">
+        <img id={{id}} class="moviePoster" src={{img}} alt="movie title" >
+    </a>
+    <div class="shortDescription">
+        <h3 class="movieName">{{name}}</h3>
+        <p class="movieYear">{{year}}</p>
+    </div>
+</li>
+
+{{/each}}
